@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "description": "Local root-Lake layout derived from the already public complete proof-source archive.",
+  "public_release_authorized": false,
+  "baseline_archive_previously_public": true,
+  "baseline_archive_sha256": "e737a06098a579abc4d1186ca6237d3b91f29bd57e8c52cb15a0a5906184ca81",
+  "baseline_archive_members": 620,
+  "unchanged_baseline_compiler_inputs": 599,
+  "baseline_lean_modules": 596,
+  "safe_baseline_modules": 595,
+  "default_targets": 591,
+  "root_libraries": 597,
+  "optional_companion_library": "SourceProcedure",
+  "companion_is_default": false,
+  "historical_proof_evidence": {
+    "safe_module_build_date": "2026-11-04",
+    "safe_module_build_count": 595,
+    "companion_build": "Separately recorded in companions/ch09-source-procedure/build.json; not part of the historical 595-module build.",
+    "scope": "Evidence reused at its original scope; no new mathematical audit, full source build, companion proof verification or axiom census."
+  },
+  "engineering_checks": {
+    "static_configuration_and_snapshot_checks": {
+      "state": "passed",
+      "strict_directory_snapshot": "passed",
+      "root_configuration_derivation": "passed",
+      "original_compiler_inputs_and_companion_identity": "passed",
+      "root_layout_tests_passed": 14,
+      "proof_library_build": "not performed",
+      "complete_unittest_discovery_tests_passed": 28,
+      "checkout_fixture": "Fresh explicit 627-file allowlist, real root .git directory and one local commit; retained CI commands."
+    },
+    "bounded_root_configuration_diagnostic": {
+      "state": "PASS_BOUNDED_DIAGNOSTIC_ONLY_NOT_PACKAGE_VERIFICATION",
+      "command": "lake env lean RootLakeAudit.lean",
+      "scope": "Root Lake configuration loaded and both source directories present in LEAN_SRC_PATH; no thesis or companion proof import/build.",
+      "root_lakefile_sha256": "28478d336c00591d8a57e87a021b9e876ecd8edb9b1cb6521798d9f8b17dd6b7",
+      "audit_sha256": "805da3b0ec6a2ba6760682c0ac23b49aafecf5b6ab40a312e0d16ff015f33eaf",
+      "diagnostic_helper_in_payload": false
+    },
+    "checkout_compatibility_repair": {
+      "finding": "COMPANION-LIBRARY-ENG-01",
+      "state": "passed complete checkout regression; independent reviewer closure pending",
+      "scope": "Real root .git metadata only; original Git-aware snapshot verification retained; fixtures copy explicit payload files.",
+      "complete_unittest_discovery_tests_passed": 28,
+      "proof_or_configuration_rebuild": "not performed; existing successful configuration diagnostic reused unchanged"
+    }
+  },
+  "reservoir_indexing": "not established",
+  "remaining_gates": [
+    "Independent engineering review",
+    "Final reviewed file freeze",
+    "Separate publication approval",
+    "Reservoir eligibility and indexing review"
+  ],
+  "project_software_license": "Apache-2.0",
+  "upstream_licenses": "Preserved in original notices and compatibility licence texts."
+}

@@ -1,0 +1,2430 @@
+name = "ThesisModern"
+version = "0.1.0"
+defaultTargets = ["Chapter02DensityDefinition", "Chapter05", "Chapter02", "Chapter02Model", "Chapter02ModelExamples", "Chapter08", "Chapter08Examples", "Chapter09", "Chapter09Examples", "Chapter10", "Chapter10Examples", "AppendixA", "AppendixAExamples", "Chapter04", "Chapter04Examples", "Chapter06", "Chapter06Examples", "Chapter07", "Chapter07Examples", "Chapter03", "Chapter03Examples", "Chapter01", "Chapter02Epigraph", "Chapter02ESH", "Chapter02CompletionExamples", "Chapter02Restoration", "Chapter02KKTCuts", "Chapter02KKTExamples", "Chapter02KKTSelectionExamples", "Chapter02FiniteCone", "Chapter02Slater", "Chapter02PolyhedralNormal", "Chapter02MultiplierExistence", "Chapter02MultiplierExamples", "Chapter02MultiplierEdgeExamples", "Chapter02OAHistory", "Chapter02OAState", "Chapter02OADriver", "Chapter02OAExamples", "Chapter02OAEdgeExamples", "Chapter02OAPolicyExamples", "Chapter02GBDHistory", "Chapter02GBDState", "Chapter02GBDDriver", "Chapter02GBDExamples", "Chapter02GBDEdgeExamples", "Chapter02ECPAnalysis", "Chapter02ESHAnalysis", "Chapter02CPHistory", "Chapter02CPSeparation", "Chapter02CPDriver", "Chapter02CPConvergence", "Chapter02CPTolerance", "Chapter02CPExamples", "Chapter02BBAffine", "Chapter02BBBounds", "Chapter02BBNodes", "Chapter02BBState", "Chapter02BBDriver", "Chapter02BBExamples", "Chapter02BBAdapter", "Chapter02BBExternal", "Chapter02BBSimulation", "Chapter02BBAdapterExamples", "Chapter02BBInfinite", "Chapter02BBInfiniteDriver", "Chapter02STGeometry", "Chapter02STState", "Chapter02STProgress", "Chapter02STDriver", "Chapter02STCQExamples", "Chapter02STObjective", "Chapter02WeightedRestoration", "Chapter02PenaltyRestoration", "Chapter02SourceRestorationExamples", "Chapter02STSourceGeometry", "Chapter02STSourceState", "Chapter02STSourceProgress", "Chapter02STSourceDriver", "Chapter02STSourceExamples", "Chapter02STSourceEdgeExamples", "Chapter02STBudget", "Chapter02STBudgetExamples", "Chapter02STCutoffExamples", "Chapter02STBudgetResetExamples", "Chapter02STExamples", "Chapter02PSCModel", "Chapter02PSCKKT", "Chapter02PSCOrder", "Chapter02PSCEnvelope", "Chapter02PSCAttainment", "Chapter02PSCSource", "Chapter02PSCSpecializations", "Chapter02PSCReclassification", "Chapter02PSCExamples", "Chapter02PSCEdgeExamples", "Chapter02PSCComparator", "Chapter02PSCComparatorExamples", "Chapter02AffineBox", "Chapter02AffinePropagation", "Chapter02AffinePropagationSource", "Chapter02AffinePropagationExamples", "Chapter02PresolveBounds", "Chapter02PresolveRedundancy", "Chapter02PresolveBoundsExamples", "Chapter02Lifting", "Chapter02LiftingSource", "Chapter02LiftingOA", "Chapter02LiftingEnvelope", "Chapter02LiftingExamples", "Chapter02LiftingMixedExamples", "Chapter02LiftingValueExamples", "Chapter02LiftingValueSource", "Chapter02LiftingEqualityExamples", "Chapter02LiftingCutCount", "Chapter02GBDInnerValue", "Chapter02GBDInnerValueSource", "Chapter02GBDInnerValueExamples", "Chapter02CPDomain", "Chapter02CPDomainSource", "Chapter02CPDomainExamples", "Chapter02ExteriorTangent", "Chapter02ExteriorTangentSource", "Chapter02ExteriorTangentAffineExample", "Chapter02ExteriorTangentExamples", "Chapter02Initializer", "Chapter02InitializerSource", "Chapter02InitializerSourceExamples", "Chapter02InitializerExamples", "Chapter02ConvexSubgradient", "Chapter02ConvexSubgradientSource", "Chapter02ConvexSubgradientExamples", "Chapter02AlphaSupport", "Chapter02AlphaAuxiliary", "Chapter02AlphaSource", "Chapter02AlphaExamples", "Chapter02AlphaObjective", "Chapter02AlphaObjectiveSource", "Chapter02AlphaObjectiveExamples", "Chapter02AlphaConvergence", "Chapter02AlphaConvergenceSource", "Chapter02AlphaConvergenceExamples", "Chapter02Clarke", "Chapter02ClarkeESH", "Chapter02ClarkeESHSource", "Chapter02ClarkeESHExamples", "Chapter02KLWSource", "Chapter02KLWExamples", "Chapter02DICOPTModel", "Chapter02DICOPTKKT", "Chapter02DICOPTMaster", "Chapter02DICOPTNoGood", "Chapter02DICOPTState", "Chapter02DICOPTDriver", "Chapter02DICOPTInitialization", "Chapter02DICOPTProcedure", "Chapter02DICOPTControlGeometry", "Chapter02DICOPTQuasiconvex", "Chapter02DICOPTQuarticAdapter", "Chapter02DICOPTExampleData", "Chapter02DICOPTNonlinear", "Chapter02DICOPTInfeasible", "Chapter02DICOPTSigns", "Chapter02DICOPTMixedExactness", "Chapter02DICOPTProcedureExamples", "Chapter02DICOPTHeuristic", "Chapter02DICOPTHeuristicGeometry", "Chapter02DICOPTHeuristicControl", "Chapter02DICOPTExamples", "Chapter02DICOPTEdgeExamples", "Chapter02DICOPTSupplementalControls", "Chapter02FBBTBoundaryControls", "Chapter02FBBTBounds", "Chapter02FBBTContinuity", "Chapter02FBBTContractionApplication", "Chapter02FBBTContractionControl", "Chapter02FBBTControlData", "Chapter02FBBTControls", "Chapter02FBBTLP", "Chapter02FBBTLimit", "Chapter02FBBTOperator", "Chapter02FBBTOrder", "Chapter02FBBTPreservation", "Chapter02FBBTSourceControl", "Chapter02FBBTSourceData", "Chapter02FBBTSourceTheorem", "Chapter02FBBTTheorem", "Chapter03FP", "Chapter03FPAdapters", "Chapter03FPAnalytic", "Chapter03FPBasic", "Chapter03FPBoundaryControls", "Chapter03FPC1Controls", "Chapter03FPC1Execution", "Chapter03FPControlProofs", "Chapter03FPDriver", "Chapter03FPFormulation", "Chapter03FPIntegerControls", "Chapter03FPInvariant", "Chapter03FPModel", "Chapter03FPProcedureModel", "Chapter03FPReturn", "Chapter03FPScalarControls", "Chapter03FPTraceC2Data", "Chapter03FPTraceC2Geometry", "Chapter03FPTraceC2Handoff", "Chapter03FPTraceC2Rescaled", "Chapter03FPTraceC2Runs", "Chapter03FPTraceC3Data", "Chapter03FPTraceC3Geometry", "Chapter03FPTraceC3Handoff", "Chapter03FPTraceC3Runs", "Chapter03FPTraceCommon", "Chapter03FPUnboundedLinearControl", "Chapter03OAKKT", "Chapter03OAKKTBoundaryBounds", "Chapter03OAKKTBoundaryConsumers", "Chapter03OAKKTBoundaryData", "Chapter03OAKKTBoundaryDegenerate", "Chapter03OAKKTBoundaryHistory", "Chapter03OAKKTBoundaryRestoration", "Chapter03OAKKTControlActive", "Chapter03OAKKTControlBase", "Chapter03OAKKTControlCertificates", "Chapter03OAKKTControlConvexity", "Chapter03OAKKTControlData", "Chapter03OAKKTControlHistory", "Chapter03OAKKTControlMaps", "Chapter03OAKKTControls", "Chapter03OAKKTMaps", "Chapter03OAKKTSource", "Chapter03OAExecArticleATrace", "Chapter03OAExecArticleAdapters", "Chapter03OAExecArticleData", "Chapter03OAExecArticleGAvailability", "Chapter03OAExecArticleGMaster", "Chapter03OAExecArticleGTrace", "Chapter03OAExecArticleGUniversal", "Chapter03OAExecArticleOtherAvailability", "Chapter03OAExecArticleOtherData", "Chapter03OAExecArticleOtherMasters", "Chapter03OAExecArticleReturns", "Chapter03OAExecArticleTTrace", "Chapter03OAExecControlAvailability", "Chapter03OAExecControlBase", "Chapter03OAExecControlCases", "Chapter03OAExecControlEndpoints", "Chapter03OAExecControlI", "Chapter03OAExecControlIExecution", "Chapter03OAExecControlIMaster", "Chapter03OAExecControlModels", "Chapter03OAExecControlQualifications", "Chapter03OAExecControlU", "Chapter03OAExecControlUExecution", "Chapter03OAExecControlUMaster", "Chapter03OAExecControls", "Chapter03OAExecCountBridge", "Chapter03OAExecHistory", "Chapter03OAExecInitialization", "Chapter03OAExecInvariant", "Chapter03OAExecKKT", "Chapter03OAExecLiteralEndpoint", "Chapter03OAExecLiteralG", "Chapter03OAExecModel", "Chapter03OAExecNoGood", "Chapter03OAExecProgress", "Chapter03OAExecRestoration", "Chapter03OAExecReturn", "Chapter03OAExecReturnCounts", "Chapter03OAExecRun", "Chapter03OAExecState", "Chapter03OAExecThesisTrace", "Chapter03OAExistenceAnalytic", "Chapter03OAExistenceArticleGPackage", "Chapter03OAExistenceArticleInitialPackages", "Chapter03OAExistenceArticlePackages", "Chapter03OAExistenceArticleShared", "Chapter03OAExistenceArticleSources", "Chapter03OAExistenceArticleTPackage", "Chapter03OAExistenceAvailability", "Chapter03OAExistenceCQ", "Chapter03OAExistenceCQEvent", "Chapter03OAExistenceFixedKKT", "Chapter03OAExistenceIData", "Chapter03OAExistenceIEvents", "Chapter03OAExistenceIExecution", "Chapter03OAExistenceIntegratedData", "Chapter03OAExistenceIntegratedEndpoint", "Chapter03OAExistenceIntegratedExecution", "Chapter03OAExistenceIntegratedMasters", "Chapter03OAExistenceIntegratedRegularity", "Chapter03OAExistenceIntegratedSolves", "Chapter03OAExistenceLPControls", "Chapter03OAExistenceMaster", "Chapter03OAExistencePolyhedron", "Chapter03OAExistenceRestoration", "Chapter03OAExistenceSublevels", "Chapter03OAExistenceUnboundedData", "Chapter03OAExistenceUnboundedExecution", "Chapter03OAExistenceUnboundedMasters", "Chapter03OAExistenceUnboundedSolves", "Chapter03OAExistenceViolation", "Chapter03OAExistenceZeroBoundary", "Chapter03PumpOAAdapter", "Chapter03PumpOAAvailability", "Chapter03PumpOABoundaries", "Chapter03PumpOAC2Execution", "Chapter03PumpOAC2Masters", "Chapter03PumpOAC2Source", "Chapter03PumpOAComposedControls", "Chapter03PumpOAComposition", "Chapter03PumpOAControlCertificates", "Chapter03PumpOACounts", "Chapter03PumpOAEmptyResiduals", "Chapter03PumpOAInfeasiblePump", "Chapter03PumpOAIntegrated", "Chapter03PumpOAIntegratedWarmComposed", "Chapter03PumpOAIntegratedWarmContinuation", "Chapter03PumpOAIntegratedWarmGeometry", "Chapter03PumpOAIntegratedWarmPump", "Chapter03PumpOAInvariant", "Chapter03PumpOAModel", "Chapter03PumpOAPolyhedron", "Chapter03PumpOAProgress", "Chapter03PumpOARestoration", "Chapter03PumpOARetainedExecution", "Chapter03PumpOARetainedGeometry", "Chapter03PumpOARetainedSource", "Chapter03PumpOAReturn", "Chapter03PumpOAReturnCounts", "Chapter03PumpOARows", "Chapter03PumpOARun", "Chapter03PumpOAScalarSource", "Chapter03PumpOASymmetricPump", "Chapter03PumpOATransfer", "Chapter03FPUnboundedAnalytic", "Chapter03FPUnboundedBasic", "Chapter03FPUnboundedControlAnalytic", "Chapter03FPUnboundedDriver", "Chapter03FPUnboundedFarData", "Chapter03FPUnboundedFarGeometry", "Chapter03FPUnboundedFarRuns", "Chapter03FPUnboundedFiniteCounts", "Chapter03FPUnboundedGapControl", "Chapter03FPUnboundedGeometry", "Chapter03FPUnboundedHandoff", "Chapter03FPUnboundedInitialControls", "Chapter03FPUnboundedInvariant", "Chapter03FPUnboundedLattice", "Chapter03FPUnboundedModel", "Chapter03FPUnboundedNoA1Control", "Chapter03FPUnboundedObjectiveBoundedData", "Chapter03FPUnboundedObjectiveBoundedLimit", "Chapter03FPUnboundedPacking", "Chapter03FPUnboundedProcedureModel", "Chapter03FPUnboundedProgress", "Chapter03FPUnboundedRepeatControl", "Chapter03FPUnboundedReturns", "Chapter03FPUnboundedSourceAdapters", "Chapter03FPUnboundedTheorem", "Chapter03FPUnboundedValidity", "Chapter03FPUnboundedZeroControl", "Chapter03FPSearchAffineCQ", "Chapter03FPSearchAnalytic", "Chapter03FPSearchAvailabilityControl", "Chapter03FPSearchBasic", "Chapter03FPSearchBonamiData", "Chapter03FPSearchBonamiInfeasible", "Chapter03FPSearchBonamiMaster", "Chapter03FPSearchBonamiRun", "Chapter03FPSearchBoxSource", "Chapter03FPSearchCQ", "Chapter03FPSearchCQControl", "Chapter03FPSearchFinite", "Chapter03FPSearchInitialControls", "Chapter03FPSearchInvariant", "Chapter03FPSearchMaster", "Chapter03FPSearchModel", "Chapter03FPSearchProcedure", "Chapter03FPSearchSoftSource", "Chapter03FPSearchSource", "Chapter03FPSearchSourceEndpoints", "Chapter03FPSearchCQCounterexample", "Chapter03FPSearchNoncycling", "Chapter03FPSearchAdditiveBackground", "Chapter03OARestorationOriginControl", "Chapter03OASoftMasterBounds", "Chapter03OASoftMasterControl", "Chapter03OASoftAffineHistoryControl", "Chapter03OASoftRevisitClosure", "Chapter03OASoftAvailability", "Chapter03OASoftStoredPolicy", "Chapter03OASoftStoredPolicyControl", "Chapter03OASoftExecutionState", "Chapter03OASoftExecutionProgress", "Chapter03OASoftExecutionReturn", "Chapter03OASoftExecutionAvailability", "Chapter03OASoftExecutionControlData", "Chapter03OASoftExecutionSelectors", "Chapter03OASoftExecutionControl", "Chapter03OASoftExecutionInitialized", "Chapter03OASoftExecutionControlReturn", "Chapter03BigMCoordinate", "Chapter03OACQSourcePrefixes", "Chapter03OldUBControls", "Chapter03ProjectionTruncation", "Chapter03PumpSoftModel", "Chapter03PumpSoftGeometry", "Chapter03PumpSoftCoverage", "Chapter03PumpSoftAvailability", "Chapter03PumpSoftAttainment", "Chapter03PumpSoftState", "Chapter03PumpSoftInvariant", "Chapter03PumpSoftProgress", "Chapter03PumpSoftRun", "Chapter03PumpSoftReturn", "Chapter03PumpSoftSelectors", "Chapter03PumpSoftComposition", "Chapter03PumpSoftControl", "Chapter04Euclidean", "Chapter04BallRows", "Chapter04SlaterBall", "Chapter04SlaterBallControl", "Chapter04FiberGap", "Chapter04FiberGapControl", "Chapter04GradientRows", "Chapter04TrialHistory", "Chapter04TrialHistoryControl", "Chapter04DiscoveryBall", "Chapter04FiniteDiscovery", "Chapter04MasterAttainment", "Chapter04FiniteDiscoveryControl", "Chapter04RadiusStopping", "Chapter04RadiusStoppingControl", "Chapter05QuadraticAnalytic", "Chapter05QuadraticScale", "Chapter05QuadraticMaster", "Chapter05QuadraticControlData", "Chapter05QuadraticControls", "Chapter05QOAModel", "Chapter05QOAFiber", "Chapter05QOAAvailability", "Chapter05QOAStatic", "Chapter05QOAState", "Chapter05QOAReturn", "Chapter05QOAControlData", "Chapter05QOAControls", "Chapter05PSQCAnalytic", "Chapter05PSQCRows", "Chapter05PSQCGeometry", "Chapter05PSQCMaster", "Chapter05PSQCSource", "Chapter05PSQCControlData", "Chapter05PSQCControls", "Chapter05PSQCMixedModel", "Chapter05PSQCMixedMaster", "Chapter05PSQCMixedState", "Chapter05PSQCMixedReturn", "Chapter05PSQCMixedControlData", "Chapter05PSQCMixedControls", "Chapter05QuadraticExact", "Chapter05QuadraticExactMaster", "Chapter05QuadraticExactControls", "Chapter05PSQCComparisonAnalytic", "Chapter05PSQCComparisonMaster", "Chapter05PSQCComparisonControls", "Chapter06LevelModel", "Chapter06LevelFiber", "Chapter06LevelMaster", "Chapter06LevelExecution", "Chapter06QuadraticRanking", "Chapter06LevelControlData", "Chapter06LevelControlTrace", "Chapter07Auxiliary", "Chapter07RestorationInfinity", "Chapter07FullLagrangianControl", "Chapter07FullLagrangian", "Chapter07SevenRankings", "Chapter07RegularizedReturn", "Chapter07RankingControls", "Chapter07UnseededModel", "Chapter07UnseededExecution", "Chapter07UnseededControlData", "Chapter07UnseededControls", "Chapter07SingleTreeRestoration", "Chapter07SingleTreeSource", "Chapter07SingleTreeAuxiliary", "Chapter07SingleTreeAugment", "Chapter07SingleTreeDriver", "Chapter07SingleTreeControls", "Chapter07UnseededRankings", "Chapter07UnseededPositiveControl", "Chapter07SingleTreeZeroRows", "Chapter08ContinuousHull", "Chapter08HullCompact", "Chapter08HullControls", "Chapter08SecondOrderCone", "Chapter08QuadraticRows", "Chapter08SOCControls", "Chapter08ExponentialGeometry", "Chapter08ExponentialRows", "Chapter08ExponentialControls", "Chapter08GDPLogic", "Chapter08GDPFormulation", "Chapter08GDPControls", "Chapter09Slots", "Chapter09SlotSums", "Chapter09Nonlinear", "Chapter09NonlinearControls", "Chapter09ConflictDeletion", "Chapter09Sequential", "Chapter09SequentialControls", "Chapter09Linear", "Chapter09LinearControls", "Chapter09Sharpness", "Chapter09SharpnessControls", "Chapter10RoutingData", "Chapter10AlgebraControls", "Chapter10FiniteAdapters", "Chapter10FiniteAttainment", "Chapter10FixedBits", "Chapter10IntegerPenalty", "Chapter10InventoryWindows", "Chapter10ProductMatrix", "Chapter10QUBOAlgebra", "Chapter10SequenceCost", "Chapter10SequenceFixed", "Chapter10SequenceMatrix", "Chapter10SequencePenalty", "Chapter10SequencePenaltyControls", "Chapter10RouteControls", "Chapter10RoutePadding", "Chapter10Routes", "Chapter10ArcRouteBridge", "Chapter10ArcRouteControls", "Chapter10RouteAllowedPadding", "Chapter10ArcControls", "Chapter10ArcMatrix", "Chapter10ArcPaths", "Chapter10ArcPenalty", "Chapter10ArcRank", "Chapter10ArcReverse", "Chapter10ArcRows", "Chapter10ArcSignedControl", "Chapter10FinitePaths", "Chapter10Sequence", "Chapter10SequenceControls", "Chapter10SequencePruning", "Chapter10SequenceRoutes", "Chapter10SequenceTiming", "AppendixAModel", "AppendixAAssignment", "AppendixAEdges", "AppendixAMaster", "AppendixAModelInterfaces", "AppendixAModelControls", "AppendixAModelFullControls", "AppendixAPaths", "AppendixASelectors", "AppendixAPathControls", "AppendixACutProcedure", "AppendixAProcedure", "AppendixAMonolithic", "AppendixAProcedureControls", "AppendixAChimeraData", "AppendixAChimeraTwoCell", "AppendixAChimeraBridge", "AppendixAChimeraControls", "AppendixAChimeraShoreBudget", "AppendixAChimeraFourData", "AppendixAChimeraShoreBase", "AppendixAChimeraFourPlan", "AppendixAChimeraFourBranchData", "AppendixAChimeraFourBranches", "AppendixAChimeraFourCoverage", "AppendixAChimeraFourBridge", "AppendixAChimeraFourControls", "AppendixAChimeraMinimum", "AppendixAIllustrativeMinimum", "AppendixAChimeraRestriction", "AppendixAChimeraPlacements", "AppendixAChimeraDiagonal", "AppendixAChimeraSymmetry", "AppendixAChimeraRealizations", "AppendixAChimeraConstruction", "AppendixAChimeraConstructionControls", "AppendixATutorialPolynomial", "AppendixASingleCell", "AppendixATutorialBetaMasks", "Chapter04MasterAttainmentControl", "Chapter02FBBTNegativeRhsControl"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "56a005855ea17e0b0958f73ec801ae140b0a1679"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02Model"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02ModelExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter08"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter08Examples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter09"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter09Examples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10Examples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixA"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter04"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter04Examples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter06"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter06Examples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07Examples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03Examples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter01"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02Epigraph"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02ESH"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02CompletionExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02Restoration"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02KKTCuts"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02KKTExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02KKTSelectionExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02FiniteCone"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02Slater"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02PolyhedralNormal"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02MultiplierExistence"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02MultiplierExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02MultiplierEdgeExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02OAHistory"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02OAState"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02OADriver"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02OAExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02OAEdgeExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02OAPolicyExamples"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02GBDHistory"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02GBDState"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02GBDDriver"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02GBDExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02GBDEdgeExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02ECPAnalysis"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02ESHAnalysis"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02CPHistory"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02CPSeparation"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02CPDriver"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02CPConvergence"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02CPTolerance"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02CPExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02BBAffine"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02BBBounds"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02BBNodes"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02BBState"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02BBDriver"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02BBExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02BBAdapter"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02BBExternal"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02BBSimulation"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02BBAdapterExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02BBInfinite"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02BBInfiniteDriver"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02STGeometry"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02STState"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02STProgress"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02STDriver"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02STCQExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02STObjective"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02WeightedRestoration"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02PenaltyRestoration"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02SourceRestorationExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02STSourceGeometry"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02STSourceState"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02STSourceProgress"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02STSourceDriver"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02STSourceExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02STSourceEdgeExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02STBudget"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02STBudgetExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02STCutoffExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02STBudgetResetExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02STExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02PSCModel"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02PSCKKT"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02PSCOrder"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02PSCEnvelope"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02PSCAttainment"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02PSCSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02PSCSpecializations"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02PSCReclassification"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02PSCExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02PSCEdgeExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02PSCComparator"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02PSCComparatorExamples"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02AffineBox"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02AffinePropagation"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02AffinePropagationSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02AffinePropagationExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02PresolveBounds"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02PresolveRedundancy"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02PresolveBoundsExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02Lifting"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02LiftingSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02LiftingOA"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02LiftingEnvelope"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02LiftingExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02LiftingMixedExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02LiftingValueExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02LiftingValueSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02LiftingEqualityExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02LiftingCutCount"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02GBDInnerValue"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02GBDInnerValueSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02GBDInnerValueExamples"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02CPDomain"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02CPDomainSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02CPDomainExamples"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02ExteriorTangent"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02ExteriorTangentSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02ExteriorTangentAffineExample"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02ExteriorTangentExamples"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02Initializer"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02InitializerSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02InitializerSourceExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02InitializerExamples"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02ConvexSubgradient"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02ConvexSubgradientSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02ConvexSubgradientExamples"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02AlphaSupport"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02AlphaAuxiliary"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02AlphaSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02AlphaExamples"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02AlphaObjective"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02AlphaObjectiveSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02AlphaObjectiveExamples"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02AlphaConvergence"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02AlphaConvergenceSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02AlphaConvergenceExamples"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02Clarke"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02ClarkeESH"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02ClarkeESHSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02ClarkeESHExamples"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02KLWSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02KLWExamples"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTModel"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTKKT"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTMaster"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTNoGood"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTState"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTDriver"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTInitialization"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTProcedure"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTControlGeometry"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTQuasiconvex"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTQuarticAdapter"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTExampleData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTNonlinear"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTInfeasible"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTSigns"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTMixedExactness"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTProcedureExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTHeuristic"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTHeuristicGeometry"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTHeuristicControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTEdgeExamples"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DICOPTSupplementalControls"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02FBBTBoundaryControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02FBBTBounds"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02FBBTContinuity"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02FBBTContractionApplication"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02FBBTContractionControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02FBBTControlData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02FBBTControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02FBBTLP"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02FBBTLimit"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02FBBTOperator"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02FBBTOrder"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02FBBTPreservation"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02FBBTSourceControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02FBBTSourceData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02FBBTSourceTheorem"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02FBBTTheorem"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FP"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPAdapters"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPAnalytic"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPBasic"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPBoundaryControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPC1Controls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPC1Execution"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPControlProofs"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPDriver"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPFormulation"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPIntegerControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPInvariant"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPModel"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPProcedureModel"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPReturn"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPScalarControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPTraceC2Data"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPTraceC2Geometry"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPTraceC2Handoff"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPTraceC2Rescaled"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPTraceC2Runs"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPTraceC3Data"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPTraceC3Geometry"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPTraceC3Handoff"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPTraceC3Runs"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPTraceCommon"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedLinearControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAKKT"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAKKTBoundaryBounds"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAKKTBoundaryConsumers"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAKKTBoundaryData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAKKTBoundaryDegenerate"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAKKTBoundaryHistory"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAKKTBoundaryRestoration"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAKKTControlActive"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAKKTControlBase"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAKKTControlCertificates"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAKKTControlConvexity"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAKKTControlData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAKKTControlHistory"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAKKTControlMaps"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAKKTControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAKKTMaps"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAKKTSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecArticleATrace"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecArticleAdapters"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecArticleData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecArticleGAvailability"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecArticleGMaster"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecArticleGTrace"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecArticleGUniversal"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecArticleOtherAvailability"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecArticleOtherData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecArticleOtherMasters"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecArticleReturns"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecArticleTTrace"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecControlAvailability"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecControlBase"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecControlCases"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecControlEndpoints"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecControlI"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecControlIExecution"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecControlIMaster"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecControlModels"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecControlQualifications"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecControlU"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecControlUExecution"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecControlUMaster"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecCountBridge"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecHistory"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecInitialization"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecInvariant"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecKKT"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecLiteralEndpoint"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecLiteralG"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecModel"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecNoGood"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecProgress"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecRestoration"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecReturn"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecReturnCounts"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecRun"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecState"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExecThesisTrace"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceAnalytic"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceArticleGPackage"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceArticleInitialPackages"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceArticlePackages"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceArticleShared"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceArticleSources"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceArticleTPackage"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceAvailability"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceCQ"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceCQEvent"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceFixedKKT"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceIData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceIEvents"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceIExecution"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceIntegratedData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceIntegratedEndpoint"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceIntegratedExecution"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceIntegratedMasters"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceIntegratedRegularity"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceIntegratedSolves"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceLPControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceMaster"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistencePolyhedron"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceRestoration"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceSublevels"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceUnboundedData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceUnboundedExecution"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceUnboundedMasters"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceUnboundedSolves"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceViolation"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OAExistenceZeroBoundary"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAAdapter"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAAvailability"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOABoundaries"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAC2Execution"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAC2Masters"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAC2Source"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAComposedControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAComposition"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAControlCertificates"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOACounts"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAEmptyResiduals"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAInfeasiblePump"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAIntegrated"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAIntegratedWarmComposed"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAIntegratedWarmContinuation"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAIntegratedWarmGeometry"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAIntegratedWarmPump"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAInvariant"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAModel"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAPolyhedron"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAProgress"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOARestoration"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOARetainedExecution"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOARetainedGeometry"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOARetainedSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAReturn"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAReturnCounts"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOARows"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOARun"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOAScalarSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOASymmetricPump"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpOATransfer"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedAnalytic"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedBasic"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedControlAnalytic"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedDriver"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedFarData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedFarGeometry"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedFarRuns"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedFiniteCounts"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedGapControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedGeometry"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedHandoff"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedInitialControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedInvariant"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedLattice"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedModel"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedNoA1Control"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedObjectiveBoundedData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedObjectiveBoundedLimit"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedPacking"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedProcedureModel"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedProgress"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedRepeatControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedReturns"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedSourceAdapters"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedTheorem"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedValidity"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPUnboundedZeroControl"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchAffineCQ"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchAnalytic"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchAvailabilityControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchBasic"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchBonamiData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchBonamiInfeasible"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchBonamiMaster"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchBonamiRun"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchBoxSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchCQ"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchCQControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchFinite"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchInitialControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchInvariant"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchMaster"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchModel"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchProcedure"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchSoftSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchSourceEndpoints"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchCQCounterexample"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchNoncycling"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03FPSearchAdditiveBackground"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OARestorationOriginControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OASoftMasterBounds"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OASoftMasterControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OASoftAffineHistoryControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OASoftRevisitClosure"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OASoftAvailability"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OASoftStoredPolicy"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OASoftStoredPolicyControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OASoftExecutionState"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OASoftExecutionProgress"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OASoftExecutionReturn"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OASoftExecutionAvailability"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OASoftExecutionControlData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OASoftExecutionSelectors"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OASoftExecutionControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OASoftExecutionInitialized"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OASoftExecutionControlReturn"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03BigMCoordinate"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OACQSourcePrefixes"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03OldUBControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03ProjectionTruncation"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpSoftModel"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpSoftGeometry"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpSoftCoverage"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpSoftAvailability"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpSoftAttainment"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpSoftState"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpSoftInvariant"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpSoftProgress"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpSoftRun"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpSoftReturn"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpSoftSelectors"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpSoftComposition"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter03PumpSoftControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter04Euclidean"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter04BallRows"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter04SlaterBall"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter04SlaterBallControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter04FiberGap"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter04FiberGapControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter04GradientRows"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter04TrialHistory"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter04TrialHistoryControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter04DiscoveryBall"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter04FiniteDiscovery"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter04MasterAttainment"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter04FiniteDiscoveryControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter04RadiusStopping"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter04RadiusStoppingControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05QuadraticAnalytic"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05QuadraticScale"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05QuadraticMaster"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05QuadraticControlData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05QuadraticControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05QOAModel"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05QOAFiber"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05QOAAvailability"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05QOAStatic"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05QOAState"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05QOAReturn"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05QOAControlData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05QOAControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05PSQCAnalytic"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05PSQCRows"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05PSQCGeometry"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05PSQCMaster"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05PSQCSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05PSQCControlData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05PSQCControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05PSQCMixedModel"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05PSQCMixedMaster"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05PSQCMixedState"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05PSQCMixedReturn"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05PSQCMixedControlData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05PSQCMixedControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05QuadraticExact"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05QuadraticExactMaster"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05QuadraticExactControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05PSQCComparisonAnalytic"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05PSQCComparisonMaster"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter05PSQCComparisonControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter06LevelModel"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter06LevelFiber"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter06LevelMaster"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter06LevelExecution"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter06QuadraticRanking"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter06LevelControlData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter06LevelControlTrace"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07Auxiliary"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07RestorationInfinity"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07FullLagrangianControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07FullLagrangian"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07SevenRankings"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07RegularizedReturn"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07RankingControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07UnseededModel"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07UnseededExecution"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07UnseededControlData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07UnseededControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07SingleTreeRestoration"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07SingleTreeSource"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07SingleTreeAuxiliary"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07SingleTreeAugment"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07SingleTreeDriver"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07SingleTreeControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07UnseededRankings"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07UnseededPositiveControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter07SingleTreeZeroRows"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter08ContinuousHull"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter08HullCompact"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter08HullControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter08SecondOrderCone"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter08QuadraticRows"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter08SOCControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter08ExponentialGeometry"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter08ExponentialRows"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter08ExponentialControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter08GDPLogic"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter08GDPFormulation"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter08GDPControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter09Slots"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter09SlotSums"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter09Nonlinear"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter09NonlinearControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter09ConflictDeletion"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter09Sequential"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter09SequentialControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter09Linear"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter09LinearControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter09Sharpness"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter09SharpnessControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10RoutingData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10AlgebraControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10FiniteAdapters"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10FiniteAttainment"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10FixedBits"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10IntegerPenalty"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10InventoryWindows"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10ProductMatrix"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10QUBOAlgebra"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10SequenceCost"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10SequenceFixed"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10SequenceMatrix"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10SequencePenalty"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10SequencePenaltyControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10RouteControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10RoutePadding"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10Routes"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10ArcRouteBridge"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10ArcRouteControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10RouteAllowedPadding"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10ArcControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10ArcMatrix"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10ArcPaths"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10ArcPenalty"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10ArcRank"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10ArcReverse"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10ArcRows"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10ArcSignedControl"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10FinitePaths"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10Sequence"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10SequenceControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10SequencePruning"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10SequenceRoutes"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter10SequenceTiming"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAModel"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAAssignment"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAEdges"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAMaster"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAModelInterfaces"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAModelControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAModelFullControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAPaths"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixASelectors"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAPathControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixACutProcedure"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAProcedure"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAMonolithic"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAProcedureControls"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraTwoCell"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraBridge"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraControls"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraShoreBudget"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraFourData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraShoreBase"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraFourPlan"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraFourBranchData"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraFourBranches"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraFourCoverage"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraFourBridge"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraFourControls"
+
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraMinimum"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAIllustrativeMinimum"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraRestriction"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraPlacements"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraDiagonal"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraSymmetry"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraRealizations"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraConstruction"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixAChimeraConstructionControls"
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixATutorialPolynomial"
+roots = ["AppendixATutorialPolynomial"]
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixASingleCell"
+roots = ["AppendixASingleCell"]
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "AppendixATutorialBetaMasks"
+roots = ["AppendixATutorialBetaMasks"]
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter04MasterAttainmentControl"
+roots = ["Chapter04MasterAttainmentControl"]
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02FBBTNegativeRhsControl"
+roots = ["Chapter02FBBTNegativeRhsControl"]
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "Chapter02DensityDefinition"
+roots = ["Chapter02DensityDefinition"]
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "MkCSStatement"
+roots = ["MkCSStatement"]
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "MkCSChallenge"
+roots = ["MkCSChallenge"]
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "MkCSSolution"
+roots = ["MkCSSolution"]
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "MigrationListChain"
+roots = ["MigrationListChain"]
+
+[[lean_lib]]
+srcDir = "lean-modern"
+name = "ConeMigration"
+roots = ["ConeMigration"]
+
+# Optional manuscript-route companion; excluded from default targets.
+[[lean_lib]]
+name = "SourceProcedure"
+srcDir = "companions/ch09-source-procedure"
+roots = ["Chapter09SourceProcedure"]

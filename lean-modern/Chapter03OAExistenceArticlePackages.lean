@@ -1,0 +1,7 @@
+module
+
+public import Chapter03OAExistenceArticleGPackage
+public import Chapter03OAExistenceArticleTPackage
+public import Chapter03OAExistenceArticleInitialPackages
+
+@[expose] public section

@@ -1,0 +1,21 @@
+# Local dependencies, products and credentials.
+.lake/
+__pycache__/
+*.pyc
+.env
+.env.*
+.usage/
+.aws/
+.ssh/
+.codex/
+.claude/
+.vscode/
+.idea/
+*.pem
+*.key
+*.eml
+*.mbox
+*.log
+receipts/
+private/
+correspondence/
